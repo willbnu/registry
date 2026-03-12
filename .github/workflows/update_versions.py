@@ -374,6 +374,13 @@ def main():
     for agent_path, agent_data in agents:
         agent_id = agent_data.get("id", "unknown")
 
+        # Skip agents with autoupdateToLatest disabled
+        if agent_data.get("autoupdateToLatest") is False:
+            if not args.json:
+                print(f"Checking {agent_id}... SKIP (autoupdateToLatest disabled)")
+            up_to_date.append(agent_id)
+            continue
+
         if not args.json:
             print(f"Checking {agent_id}...", end=" ", flush=True)
 

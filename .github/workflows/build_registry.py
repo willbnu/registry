@@ -514,6 +514,9 @@ def process_entry(
         ]
     entry["icon"] = f"{base_url}/{entry_id}.svg"
 
+    # Strip internal-only fields that shouldn't appear in the published registry
+    entry.pop("autoupdateToLatest", None)
+
     return entry, []
 
 
