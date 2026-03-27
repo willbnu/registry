@@ -8,9 +8,12 @@
   "authors": ["Charmbracelet"],
   "license": "MIT",
   "distribution": {
-    "npx": {
-      "package": "crush-acp",
-      "args": []
+    "binary": {
+      "windows-x86_64": {
+        "archive": "https://github.com/willbnu/crush-acp/releases/download/v0.2.0/crush-acp-windows-x64.zip",
+        "cmd": "crush-acp.exe",
+        "args": []
+      }
     }
   }
 }
