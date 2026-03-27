@@ -1,7 +1,7 @@
 {
   "id": "crush-acp",
   "name": "Crush",
-  "version": "0.2.1",
+  "version": "0.4.0",
   "description": "Charm's AI coding agent - use Crush from Zed and other ACP-compatible editors",
   "repository": "https://github.com/willbnu/crush-acp",
   "website": "https://github.com/charmbracelet/crush",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "distribution": {
     "npx": {
-      "package": "crush-acp@0.2.1"
+      "package": "crush-acp@0.4.0"
     }
   }
 }
