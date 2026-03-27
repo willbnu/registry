@@ -1,7 +1,7 @@
 {
   "id": "crush-acp",
   "name": "Crush",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Charm's AI coding agent - multi-provider model support, thinking/yolo toggles, works with Zed and ACP-compatible editors",
   "repository": "https://github.com/willbnu/crush-acp",
   "website": "https://github.com/charmbracelet/crush",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "distribution": {
     "npx": {
-      "package": "crush-acp@0.4.0"
+      "package": "crush-acp@0.4.1"
     }
   }
 }
